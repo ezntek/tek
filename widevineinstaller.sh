@@ -1,5 +1,5 @@
 #!/bin/bash
-#INSTALL by running sh winedevineinstaller.sh
+#INSTALL by running sh widevineinstaller.sh
 LATEST=`curl https://dl.google.com/widevine-cdm/current.txt`
 wget https://dl.google.com/widevine-cdm/$LATEST-linux-x64.zip
 unzip $LATEST-linux-x64.zip
